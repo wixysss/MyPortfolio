@@ -1,0 +1,36 @@
+.about-photos {
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+    scrollbar-width: none;
+}
+
+.about-photos img {
+    width: 533px;
+    height: 400px;
+    border-radius: 20px;
+    border: solid 1px var(--accent);
+}
+
+.about {
+    max-width: 775px;
+    margin: 100px auto;
+}
+
+.about h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.about p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+@media (max-width: 720px) {
+    .about-photos img{
+        width: 280px;
+        height: 210px;
+    }
+}

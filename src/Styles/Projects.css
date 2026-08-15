@@ -1,0 +1,42 @@
+.projects {
+    margin: 100px auto;
+    max-width: 775px;
+}
+
+.projects-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.projects-hero p{
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: center;
+}
+
+.projects-hero h1{
+    font-size: 40px;
+    text-align: center  ;
+}
+
+.projects-hero-icon{
+    border: solid var(--card-bd) 2px;
+    border-radius: 12px;
+    padding: 12px 12px 10px 12px;
+    transition: 0.5s ease border ;
+}
+
+.projects-hero-icon:hover{
+    border: solid 2px var(--accent);
+}
+
+.projects-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+

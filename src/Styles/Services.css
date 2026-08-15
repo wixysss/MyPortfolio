@@ -1,0 +1,42 @@
+.services {
+    max-width: 775px;
+    margin: 100px auto;
+    padding: 0;
+}
+
+.services-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-hero p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: center;
+}
+
+.services-hero h1 {
+    font-size: 40px;
+}
+
+.services-hero-icon {
+    border: solid var(--card-bd) 2px;
+    border-radius: 12px;
+    padding: 12px 12px 10px 12px;
+    transition: 0.5s ease border;
+}
+
+.services-hero-icon:hover {
+    border: solid 2px var(--accent);
+}
+
+.services-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin: 0 auto;
+    padding: 0;
+}
