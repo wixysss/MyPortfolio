@@ -6,6 +6,7 @@ import {Stack} from "./Components/Stack.tsx";
 import {Projects} from "./Components/Projects.tsx";
 import {Services} from "./Components/Services.tsx";
 import {Contact} from "./Components/Contact.tsx";
+import {Analytics} from "@vercel/analytics/react";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Projects/>
             <Services/>
             <Contact/>
+            <Analytics/>
         </div>
     )
 }
